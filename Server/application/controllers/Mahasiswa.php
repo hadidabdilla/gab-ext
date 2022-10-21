@@ -59,7 +59,7 @@ class Mahasiswa extends Server {
         if($hasil == 0)
         {
             // tampil hasil dalam format "JSON"
-            $this ->response(array("status" => "data berhasil disimpan"),200);
+            $this ->response(array("status" => "data berhasil disimpan..."),200);
         }
         else
         {
